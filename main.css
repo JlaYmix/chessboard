@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(5,150px);
+    grid-template-rows: repeat(5,100px);
+    width: 790px;
+    height: 840px;
+    background-color: rgb(216, 165, 130);
+    border: 20px solid rgb(82, 46, 38);
+}
+
+.While {
+    background-color: rgb(199, 150, 137);
+}
+.Brown {
+    background-color: rgb(126, 64, 49);
+}
